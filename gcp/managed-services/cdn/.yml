@@ -1,0 +1,13 @@
+apiVersion: stratosphere.ulti.io/v1alpha1
+kind: CDNRequest
+metadata:
+  labels:
+    env_type: eng
+    substream_id: ad94f6dc-51d8-4b87-afdf-67130c9973b7
+  name: ${{ values.name }}
+spec:
+  location: us
+  policy:
+    clientTtl: 2400
+  teamId: 167c9b71-456c-47fe-a77e-aa57fa22f285
+  type: lab
