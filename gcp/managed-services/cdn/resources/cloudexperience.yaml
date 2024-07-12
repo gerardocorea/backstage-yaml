@@ -1,0 +1,13 @@
+apiVersion: stratosphere.ulti.io/v1alpha1
+kind: CDNRequest
+metadata:
+  labels:
+    env_type: eng
+    substream_id: 
+  name: cloudexperience
+spec:
+  location: eu
+  policy:
+    clientTtl: 2400
+  teamId: 
+  type: lab
