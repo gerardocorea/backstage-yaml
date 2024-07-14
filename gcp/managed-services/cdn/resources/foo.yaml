@@ -1,0 +1,18 @@
+apiVersion: stratosphere.ulti.io/v1alpha1
+kind: CDNRequest
+metadata:
+  labels:
+    env_type: prd
+    substream_id: 1234
+  name: foo
+spec:
+  location: us
+  policy:
+    clientTtl: 2400
+  owners:
+    - gerardo_corea@ultimatesoftware.com
+    - ana_perez@ultimatesoftware.com
+  readers:
+    - david_salazar@ultimatesoftware.com
+  teamId: 
+  type: lab
