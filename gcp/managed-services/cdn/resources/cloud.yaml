@@ -10,4 +10,4 @@ spec:
   policy:
     clientTtl: 2400
   teamId: 
-  type: lab
+  type: dev
