@@ -3,11 +3,15 @@ kind: CDNRequest
 metadata:
   labels:
     env_type: eng
-    substream_id: 
+    substream_id: 123
   name: cloud
 spec:
   location: us
   policy:
     clientTtl: 2400
+  owners: 
+
+    - {{owner}}
+
   teamId: 
-  type: lab
+  type: dev
