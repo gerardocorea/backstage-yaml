@@ -1,0 +1,17 @@
+apiVersion: stratosphere.ulti.io/v1alpha1
+kind: CDNRequest
+metadata:
+  labels:
+    env_type: eng
+    substream_id: 123
+  name: ljdljd
+spec:
+  location: us
+  policy:
+    clientTtl: 2400
+  owners: 
+    
+    - {{ owner }}
+    
+  teamId: 
+  type: lab
