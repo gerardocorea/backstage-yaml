@@ -1,0 +1,15 @@
+apiVersion: stratosphere.ulti.io/v1alpha1
+kind: CDNRequest
+metadata:
+  labels:
+    env_type: eng
+    substream_id: 123123
+  name: asdasd
+spec:
+  location: us
+  policy:
+    clientTtl: 2400
+  owners:
+    - gerardo_corea@ultimatesoftware.com
+  teamId: 
+  type: dev
