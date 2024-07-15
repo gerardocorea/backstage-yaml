@@ -3,7 +3,7 @@ kind: CDNRequest
 metadata:
   labels:
     env_type: eng
-    substream_id: 12345
+    substream_id: 1234
   name: cloudex
 spec:
   location: us
@@ -12,5 +12,6 @@ spec:
   owners:
     - gerardo_corea@ultimatesoftware.com
   readers:
+    - gerardo_corea@ultimatesoftware.com
   teamId: 
   type: lab
